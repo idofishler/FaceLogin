@@ -1,0 +1,213 @@
+.videostream{
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	-webkit-border-image: none;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(255, 255, 255, 0.498039);
+	background-image: none;
+	background-origin: padding-box;
+	background-size: auto;
+	border-bottom-color: rgb(204, 204, 204);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(204, 204, 204);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(204, 204, 204);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(204, 204, 204);
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: rgb(34, 34, 34);
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	height: 250px;
+	line-height: 16px;
+	text-align: center;
+	width: 307px;
+	margin: 0 0 0 100px;
+}
+
+.snap_img_hidden{
+	display: none;
+}
+
+.snap_img_visable{
+	display: inline;
+}
+
+/* modified mobile CSS */
+.mobile_urCopyrightText {
+	font-size:14px;
+}
+
+/* new mobile CSS */
+#mobileHeaderStrip{
+	height: 15px;
+}
+
+#mobileHeaderTitle{
+	margin-top: 25px;
+	margin-bottom: 40px;
+	font-size: 40px;
+}
+
+.mobileErrorMessageText {
+	padding-left: 10px;
+	font: 28px arial;
+}
+
+.mobileMsgBarImgError {
+	height: 24px;
+	width: 24px;
+	background-image: url(icons/ico24_msg_mobile_error.png);
+	display: inline-block;
+}
+
+.mobileMsgBarImgOk {
+	height: 24px;
+	width: 24px;
+	background-image: url(icons/ico24_msg_mobile_info.png);
+	display: inline-block;
+}
+
+.mobileMsgMinHeight {
+	min-height: 100px;
+}
+
+.mobileInput {
+	width: 70%;
+	height: 80px;
+	margin: 0 15%;
+	font: 26px arial;
+}
+
+.mobileButton{
+	width: 70%;
+	height: 65px;
+	left: 15%;
+	margin-top: 15px;
+	font: 28px arial;
+	border-radius: 20px;
+}
+
+.mobileMultiInputFirst {
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+
+.mobileMultiInputLast {
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+.mobileInputNote {
+	height: 120px;
+	padding-top:10px;
+}
+
+.mobileDropDown {
+	width: 70%;
+	left: 15%;
+	margin-top: 20px;
+}
+
+.mobileDropDownImportantWidth {
+	width: 70% !important;
+}
+
+.mobileFormTitle {
+	margin:0 0 20px 15%;
+	font: bold 28px arial;
+}
+
+.mobileText {
+	margin:0 5% 0 5%;
+	font: 28px arial;
+}
+
+.mobileSubText {
+	margin:0 15% 0 15%;
+	font: 24px arial;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.mobileAdditionText{
+	font: 16px arial;
+}
+
+.mobileLinkSubTextMarginLeft{
+	margin:0 0 0 10px;
+}
+
+.pageHeightStrech {
+	min-height: 750px !important;
+}
+
+.mobileLogonPageHeightStrech{
+	min-height: 645px !important;
+}
+
+.mobileLogonProblemPageHeightStrech {
+	min-height: 1030px !important;
+}
+
+.mobileResetPasswordPageHeightStrech {
+	min-height: 920px !important;
+}
+
+.mobileCertlogonPageHeightStrech{
+	min-height: 730px !important;
+}
+
+.mobileHelpPageHeightStrech {
+	min-height: 600px !important;
+}
+
+.mobileButtonExtraMarginTop {
+	margin-top: 120px !important;
+}
+
+.mobilePaddedTD{
+	height: 30px;
+	padding: 0 15% 0 15%;
+}
+
+.mobilePaddedTDLarge{
+	height: 80px;
+	padding: 0 15% 0 15%;
+}
+
+input[type="checkbox"] {
+	position: relative;
+	top: 1px;
+}
+
+#page{
+	min-height: 540px;
+}
+
+/* prt and ur CSS */
+.urmessagearea {
+	height: 80px;
+}
+
+.urlogondata {
+	height:auto;
+}
+
+.urmsgbarimgwarning {
+	background-image: url(icons/ico24_msg_mobile_warning.png) !important;
+	height: 24px !important;
+	width: 24px !important;
+}

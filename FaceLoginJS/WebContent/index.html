@@ -1,0 +1,324 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">
+/*HTML Business for Java, 6.0*/
+ur_system = {doc : window.document , mimepath :"/com.sap.portal.design.urdesigndata/themes/portal/sap_tradeshow_plus/common/", stylepath : "/com.sap.portal.design.urdesigndata/themes/portal/sap_tradeshow_plus/ur/", is508 : false, domainrelaxing : "MINIMAL"};
+var popup_emptydoc = "/htmlb/jslib/emptyhover.html";</script>
+<link rel="stylesheet" href="http://iltlvw181.tlv.sap.corp:50000/com.sap.portal.design.portaldesigndata/themes/portal/sap_tradeshow_plus/prtl_std/prtl_std_sf3.css?v=7.30.9.0.0">
+
+<!-- FaceLogin -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript"src="http://code.jquery.com/jquery-migrate-1.1.0.min.js"></script>
+<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
+<script type="text/javascript" src="facelogin.js"></script>
+
+<!-- EPCF: BOB Core -->
+<meta http-equiv="content-script-type" content="text/javascript">
+<script type="text/javascript" src="./index_files/js13_epcf.js"></script>
+<script type="text/javascript">
+<!--
+EPCM.relaxDocumentDomain();
+EPCM.init( {
+Version:7.300000012,
+Level:1,
+DynamicTop:false, // [service=true nestedWinOnAlias=false]
+UAType:31, // [Safari]
+UAVersion:4.0,
+UAPlatform:3, // [Mac]
+UIPMode:"1", // [Default=1, User=0, Personalize=true]
+UIPWinFeatures:"",
+UIPPortalPath:"http://iltlvw181.tlv.sap.corp:50000/irj/portal",
+UIPPopupComp:"http://iltlvw181.tlv.sap.corp:50000/irj/servlet/prt/portal/prtroot/com.sap.portal.epcf.admin.WorkProtectPopup",
+UIPPopupCompSize:"dialogWidth:450px; dialogHeight:200px; status:no",
+UIPPopupMsgNN:"Your\x20current\x20page\x20contains\x20unsaved\x20data.\r\nDo\x20you\x20want\x20to\x20continue\x20with\x20navigation\x20and\x20open\x20a\x20new\x20window\x3f",
+UIPPopupMsgND:"Your\x20current\x20page\x20contains\x20unsaved\x20data.\r\nDo\x20you\x20want\x20to\x20discard\x20the\x20changes\x20and\x20open\x20the\x20content\x20in\x20the\x20same\x20window\x3f",
+DBGException:false
+} );
+EPCM.DSM.init( {
+TerminatorURL:"/irj/servlet/prt/portal/prtroot/com.sap.portal.dsm.Terminator",
+WinEmptyUrl:"/com.sap.portal.dsm/images/empty.gif",
+NavAcrossSubFramesUrl:"/com.sap.portal.dsm/html/EmptyAutoScript.html",
+ForcedUserDebug:false,
+KeepAliveActive:false,
+KeepAliveDelta:840,
+dsmMethodGetKey:"",
+KeepAliveStopAfter:36000
+} );
+function SAPWP_receiveSessInfo( sessInfo, frameRef ){
+  EPCM.DSM.processSession( sessInfo, frameRef );
+}
+//-->
+</script>
+<!-- EPCF: EOB Core -->
+<title>SAP NetWeaver Portal</title><link rel="STYLESHEET" href="./index_files/ur_sf3.css" type="text/css"></head><script type="text/javascript">var new_nav = new function() {};var x;for (x in navigator) {eval("new_nav." + x + " = navigator." + x + ";");}new_nav.userAgent = "Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10";new_nav.vendor = "Apple, Inc.";window.navigator = new_nav;</script><body class="prtlBody urFontBaseFam urScrl">
+<!-- EPCF: Component com.sap.portal.runtime.logon.certlogon, bnbkbpccdfknbohhimipnndmkjmlieim -->
+<script>
+  var inPortalScript = true
+  var webpath = "/logon_ui_resources/"
+</script>
+
+<link rel="stylesheet" href="http://iltlvw181.tlv.sap.corp:50000/logon_ui_resources/css/ur/ur_nn6.css">
+<script language="javascript">
+var originWindowName=window.name;
+window.name="logonAppPage";
+function restoreWindow() {
+try{
+window.name=originWindowName;
+} catch(ex){}
+}
+</script>
+<script language="JavaScript">
+function putFocus(formInst, elementInst) {
+  if (document.forms.length > 0) {
+    document.forms[formInst].elements[elementInst].focus();
+  }
+}
+
+function setValuesAutoCreation() {
+var form = document.getElementById('logonForm');
+form.j_username.value="";
+form.j_password.value="";
+form.automaticAccountCreation.value="true";
+}
+function submitForm() {
+var form = document.getElementById('logonForm');
+form.submit();
+}
+function clearEntries() {
+  document.logonForm.longUid.value="";
+  document.logonForm.password.value="";
+}
+function setFocusToFirstField() {
+ myform = document.logonForm;
+ try{
+   for (i=0; i<myform.length; i++) {
+    elem = myform.elements[i];
+    if (!elem.disabled) {
+      elemType = elem.type;
+      if (elemType=="text" || elemType=="password") {
+       if (!elem.readOnly) {
+          elem.focus();
+          break;
+       }
+      }
+      if (elemType=="select-one" || elemType=="select-multiple" || elemType=="checkbox" || elemType=="radio") {
+        elem.focus();
+        break;
+      }
+    }
+   }
+ } catch(ex){
+ }
+}
+function addTenantPrefix() {
+  return true;
+}
+</script>
+<span id="UMELogon">
+<script language="JavaScript">
+if( window.EPCM != null ) {
+  EPCM.subscribeEvent( "urn:com.sapportals.portal:browser", "load", setFocusToFirstField );
+}
+</script>
+
+
+
+
+
+
+
+<script language="JavaScript">
+var blockPage = false;
+</script>
+
+
+
+<script language="JavaScript">
+function writeMessage() {
+	document.write("<h2>A possible Cross-Frame Scripting attack has been prevented. Please contact your system administrator or refer to SAP Note 1651004 for more information.</h2>");
+}
+
+if (blockPage) {
+	var browserName = navigator.appName;
+	// According to the tests IE works with document.execCommand(), but Firefox and Chrome do not
+	if (browserName.indexOf("Explorer") > -1) {
+		writeMessage();
+		document.execCommand("Stop");
+	} else {
+		writeMessage();
+		window.stop();
+	}
+}
+</script>
+
+
+
+
+
+
+
+ 
+ 
+	<link rel="stylesheet" type="text/css" href="./index_files/mobile.css">
+	 
+		<link rel="stylesheet" type="text/css" href="./index_files/tablet.css">
+		
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<div data-role="page" id="page" class="mobileLogonPageHeightStrech">
+	<div data-role="header">
+		<div id="mobileHeaderStrip"></div>
+		<h1 id="mobileHeaderTitle">SAP NetWeaver</h1>
+	</div> <!-- Header -->
+
+	<div data-role="content">
+		
+		<table id="tblInnerCnt" valign="middle" dir="ltr" align="center" cellpadding="0" cellspacing="0">
+			
+			<tbody><tr>
+				<td>
+					<div style="text-align:center;">
+						<video id="video" class="videostream" autoplay title="Use you webcam to login" alt="WebCam"></video>
+						<img id="snap_img" src="" class="snap_img_display">
+						<canvas id="canvas" width="230" height="200" style="display:none;"></canvas>
+						<p><button id="vdo_snap" class="mobileButton mobileButtonBlue" >Snap</button></p>
+					</div>
+					<div>
+						<textarea id="textarea" rows="" cols=""></textarea>
+					</div>
+				</td>
+				<td>					
+					<table cellpadding="0" cellspacing="0">												
+						<tbody><tr>
+							<td valign="top" align="left">							
+								<div class="urLogonData">										
+									<!-- data table starts after this line -->
+									<form autocomplete="off" id="logonForm" name="logonForm" target="logonAppPage" method="post" action="">
+<input name="login_submit" type="hidden" value="on"><input type="hidden" name="login_do_redirect" value="1"><input name="no_cert_storing" type="hidden" value="on"><input type="hidden" name="j_salt" value="BpeqmQ1nKVxSE+Ubi9lVuInSjOU=">
+
+										
+										<table class="urLogonTable" cellspacing="3px" cellpadding="0" valign="top">																									
+											<tbody><tr>
+												<td colspan="3">
+													<div class="urMessageArea">
+														<!--	Federation Error Message				-->
+																												
+																												
+													</div>
+												</td>
+											</tr>												
+															
+											<!-- userid and password -->
+											<tr>
+												<td colspan="3">
+													<!-- userid -->
+													<span id="userNameLabel">
+														<label class="mobileHiddenString"><nobr>User<span class="urLblReq">&nbsp;*</span></nobr></label>
+
+													</span>
+													<input type="text" id="logonuidfield" name="j_username" value="" title="User *" class="mobileInput mobileMultiInputFirst" placeholder="User">
+													<!-- password -->
+													<span id="passwordLabel">
+														<label class="mobileHiddenString" for="logonpassfield"><nobr>Password<span class="urLblReq">&nbsp;*</span></nobr></label>
+
+													</span>
+													<input type="password" id="logonpassfield" name="j_password" class="mobileInput mobileMultiInputLast" placeholder="Password">
+												</td>
+											</tr>
+											<!-- create certificate -->
+											
+											<!-- Federate User checkbox -->
+											
+											<tr>
+												<td width="100%" colspan="3">	
+												<!-- logon button -->
+												<input class="mobileButton mobileButtonBlue" type="submit" name="uidPasswordLogon" value="Log On">
+
+												
+												</td>
+											</tr>												
+											<!-- link to certificate logon -->
+											
+											<!-- logon help -->
+											
+										</tbody></table>
+									</form>
+
+									<!-- data table ends before this line -->
+								</div>																	
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+			</tr>
+		</tbody></table>			
+	</div> <!-- Content -->
+
+	<div data-role="footer" data-position="fixed" class="mobileFooter">
+		<div class="urCopyrightFrame">	
+			<div class="urCopyrightImage mobileCopyrightImage"><img src="./index_files/sap_logo.png" alt="SAP AG" title="SAP AG" width="55" height="27"></div>		
+			<div class="mobile_urCopyrightText">Copyright © SAP AG. All Rights Reserved.</div>					
+		</div>
+	</div> <!-- Footer -->
+
+</div> <!-- Page -->
+
+<script type="text/javascript">
+	var _userNameContainer = document.getElementById('userNameLabel');
+	var _passwordContainer = document.getElementById('passwordLabel');
+	var _userNameLabel = _userNameContainer.getElementsByTagName('nobr')[0].childNodes[0].textContent;
+	var _passwordLabel = _passwordContainer.getElementsByTagName('nobr')[0].childNodes[0].textContent;
+	document.getElementById('logonuidfield').placeholder = _userNameLabel;
+	document.getElementById('logonpassfield').placeholder = _passwordLabel;
+</script>
+
+
+
+ 
+
+<script type="text/javascript">
+<!--		
+  var docDir = document.dir;    
+  if(docDir=="rtl" || docDir=="RTL"){   
+     var elTableCnt = document.getElementById("tblInnerCnt");
+     if(elTableCnt!=undefined){
+       elTableCnt.style.direction="rtl";        
+     }     
+  }  
+  var isFormSubmitted = false;
+  if( document.forms ) {		
+    document.forms[0].onsubmit=function(){
+      if( isFormSubmitted ) {
+        return false;
+      } else {
+        isFormSubmitted = true;
+        return true;
+      }
+    }
+  }      
+-->
+</script>
+ 
+<script type="text/javascript">
+//juqery user screen size fix for iphone
+/**
+$(document).ready( function() {
+	//Maximize the real estate available to the portal contents
+	stretch_portal_content();
+	$(window).resize( stretch_portal_content );
+});
+
+function stretch_portal_content() {
+	if( $(window).height() > $('body').height() ) {
+		$( '#portal-content' ).height(
+			$(window).height() - ( $('body').height() - $('#portal-content').height() )
+		);
+	}
+}
+**/
+</script>
+</span>
+
+<script>var hash = document.location.hash;if (hash && hash !='#'){ var forms = document.getElementsByTagName('FORM'); for (var i = 0; i < forms.length; i++) {      var form = forms[i];     var currentElement = document.createElement('input');     currentElement.setAttribute('type', 'hidden');     currentElement.setAttribute('name', 'postAnchorString');     currentElement.setAttribute('id', 'postAnchorString');     currentElement.setAttribute('value', hash);     form.appendChild(currentElement);     }}</script></body></html>

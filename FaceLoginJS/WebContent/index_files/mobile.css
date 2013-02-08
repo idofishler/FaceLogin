@@ -1,0 +1,269 @@
+/* previous mobile CSS */
+.mobile_urEdfTxtEnblSml {
+	background-color:#FFF;
+	border-color:#CACACA;
+	color:#000;
+	border-style:solid;
+	border-width:1px;
+	padding:0 2px 0 2px;
+}
+
+.mobile_urMsgBarStd {
+	border:0;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+.mobile_urLblStdNew {
+	color:#000;
+	line-height:1.1em;
+	padding:0 4px 0 0;
+}
+
+/* modified mobile CSS */
+.mobile_urMsgBarErr {
+	border:0;
+	margin:0 0 0 5%;
+	padding:0 0 0 0; 
+	position:relative;
+}
+
+.mobile_urCopyrightText {
+	font:normal Arial, Helvetica, sans-serif;
+	position:absolute;
+	bottom:0px;
+	right:5%;
+	color:#303030;
+}
+
+/* new mobile CSS */
+#mobileHeaderStrip{
+	width: 90%;
+	top:0px;
+	left: 5%;
+	position: relative;
+	background-color:#f0ab00;
+}
+
+#mobileHeaderTitle{
+	margin-left: 5%;
+	position: relative;
+	font:bold arial;
+	color: #626262;
+}
+
+.mobileButton{
+	border: 1x solid;
+	position: relative;
+}
+
+.mobileButtonBlue{
+	color:#ffffff;
+	border-color:#00416e;
+	box-shadow: 3px 3px 2px #efefef;
+	box-shadow: inset 1px 1px 1px #3dbfff;
+	background: rgb(0,122,182); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(0,122,182,1) 0%, rgba(0,98,169,1) 50%, rgba(0,89,154,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,122,182,1)), color-stop(50%,rgba(0,98,169,1)), color-stop(100%,rgba(0,89,154,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,122,182,1) 0%,rgba(0,98,169,1) 50%,rgba(0,89,154,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,122,182,1) 0%,rgba(0,98,169,1) 50%,rgba(0,89,154,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,122,182,1) 0%,rgba(0,98,169,1) 50%,rgba(0,89,154,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(0,122,182,1) 0%,rgba(0,98,169,1) 50%,rgba(0,89,154,1) 100%); /* W3C */
+}
+
+.mobileButtonBlue:active{
+	box-shadow: 3px 3px 2px #efefef;
+	box-shadow: inset 1px 1px 1px #004A7d;
+	background: rgb(0,74,125); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(0,74,125,1) 0%, rgba(0,98,169,1) 51%, rgba(0,122,182,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,74,125,1)), color-stop(51%,rgba(0,98,169,1)), color-stop(100%,rgba(0,122,182,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,74,125,1) 0%,rgba(0,98,169,1) 51%,rgba(0,122,182,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,74,125,1) 0%,rgba(0,98,169,1) 51%,rgba(0,122,182,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,74,125,1) 0%,rgba(0,98,169,1) 51%,rgba(0,122,182,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(0,74,125,1) 0%,rgba(0,98,169,1) 51%,rgba(0,122,182,1) 100%); /* W3C */
+}
+
+.mobileButtonGray{
+	color:#303030;
+	border-color:#666666;
+	box-shadow: 3px 3px 2px #efefef;
+	box-shadow: inset 1px 1px 1px #d6d6d6;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(221,222,224,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(221,222,224,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(221,222,224,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(221,222,224,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(221,222,224,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(221,222,224,1) 100%); /* W3C */
+}
+
+.mobileButtonGray:active{
+	box-shadow: 3px 3px 2px #efefef;
+	box-shadow: inset 1px 1px 1px #d6d6d6;
+	bbackground: rgb(239,239,239); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(239,239,239,1) 0%, rgba(221,221,221,1) 65%, rgba(239,239,239,1) 100%, rgba(221,221,221,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(239,239,239,1)), color-stop(65%,rgba(221,221,221,1)), color-stop(100%,rgba(239,239,239,1)), color-stop(100%,rgba(221,221,221,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(239,239,239,1) 0%,rgba(221,221,221,1) 65%,rgba(239,239,239,1) 100%,rgba(221,221,221,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(239,239,239,1) 0%,rgba(221,221,221,1) 65%,rgba(239,239,239,1) 100%,rgba(221,221,221,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(239,239,239,1) 0%,rgba(221,221,221,1) 65%,rgba(239,239,239,1) 100%,rgba(221,221,221,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(239,239,239,1) 0%,rgba(221,221,221,1) 65%,rgba(239,239,239,1) 100%,rgba(221,221,221,1) 100%); /* W3C */
+}
+
+.mobileCopyrightImage {
+	margin-left: 5%;
+	float: left;
+}
+
+.mobileFooter {
+	bottom: 5%;
+	position: absolute;
+	width: 100%;
+}
+
+.mobileErrorMessageText {
+	color: #303030;
+	display: inline-block;
+	position: absolute;
+	margin-right: 5%;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.mobileHiddenString {
+	display:none;
+}
+
+.mobileInput {
+	-webkit-appearance: none;
+	border: 1px solid #a6a7a9;
+	background-color: #fcfcfc;
+	color: #303030;
+	padding: 0 10px;
+	box-shadow: none;
+}
+
+.mobileMultiInputFirst {
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+
+.mobileMultiInputMiddle {
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	top: -1px;
+	position: relative;
+}
+
+.mobileMultiInputLast {
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	top: -1px;
+	position: relative;
+}
+
+.mobileMultiInputThirdFix{
+	top: -2px !important;
+}
+
+.mobileMultiInputForthFix{
+	top: -3px !important;
+}
+
+.mobileMultiInputFifthFix{
+	top: -4px !important;
+}
+
+.mobileDropDown {
+	position: relative;
+	height: 32px;
+	font: 14px arial;
+	border-radius: 10px;
+}
+
+.mobileIDPSelectionBottomTableFix {
+	padding-top: 55px;
+	position: relative;
+}
+
+#page{
+	height:100%;
+	position:relative;
+}
+
+.mobileMsgBarImgError {
+	top: 2px;
+	position: relative;
+	background-repeat: no-repeat;
+	margin: 0 0 0 0;
+}
+
+.mobileMsgBarImgOk {
+	top: 2px;
+	position: relative;
+	background-repeat: no-repeat;
+	margin: 0 0 0 0;
+}
+
+.formStrech {
+	height: 100%;
+}
+
+.mobileFormTitle {
+	border:0;
+	padding:0 0 0 0; 
+	position:relative;
+	color: #303030;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.mobileLink:link {
+	color: #1174ba !important;
+	font-family: arial;
+}
+
+.mobileTDAlignTop{
+	vertical-align: top;
+}
+
+.mobileTDAlignBottom{
+	vertical-align: bottom;
+}
+
+.mobileNoHighlight{
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+/* prt and ur CSS */
+.prtlbody {
+	background-color: #ffffff;
+}
+
+.urLogonData{
+	padding: 0;
+}
+
+.urmsgbarimgwarning {
+	display: inline-block;
+	top: 2px;
+	position: relative;
+}
+
+table {
+	width:100%;
+}
