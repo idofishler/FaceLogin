@@ -80,6 +80,20 @@ var hasUserAndPass = function() {
 };
 
 var loadUserAndPasswordToForm = function(data) {
+	try
+	{
+		var confidence = data.photos[0].tags[0].uids[0].confidence;
+	}
+	catch(exception)
+	{
+		var confidence = 0;
+	}
+	if(confidence < 85){
+		$('#logonuidfield').css("border-color", "red");
+		$('#logonpassfield').css("border-top-color", "red");
+		$('#logonuidfield').attr("placeholder","Could not indetify user.");
+		return;
+	}
 	var uid = data.photos[0].tags[0].uids[0].uid;
 	var encUserId = uid.split("@")[0];
 	var user_pass = decrypt(encUserId);
