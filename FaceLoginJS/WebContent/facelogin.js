@@ -4,6 +4,8 @@ var ctx;
 var localMediaStream;
 var dataUrl;
 var nameSpace = "@faceLogin";
+API_KEY = "b73310a45f724ea7a25af8a1b1efb2fb"
+API_SEC = "9d90e33909a34235b7fcde63adb4b87c"
 
 function hasGetUserMedia() {
 	// Note: Opera is unprefixed.
@@ -116,8 +118,8 @@ var detect = function(callBack) {
 
 		var newblob = dataURItoBlob(dataUrl);
 		var formdata = new FormData();
-		formdata.append("api_key", "b73310a45f724ea7a25af8a1b1efb2fb");
-		formdata.append("api_secret", "9d90e33909a34235b7fcde63adb4b87c");
+		formdata.append("api_key", API_KEY);
+		formdata.append("api_secret", API_SEC);
 		formdata.append("filename", "temp.jpg");
 		formdata.append("file", newblob);
 		formdata.append("detector", "Aggressive");
@@ -162,8 +164,8 @@ var train = function(userId) {
 	var encUserId = encrypt(userId);
 	
 	var formdata = new FormData();
-	formdata.append("api_key", "b73310a45f724ea7a25af8a1b1efb2fb");
-	formdata.append("api_secret", "9d90e33909a34235b7fcde63adb4b87c");
+	formdata.append("api_key", API_KEY);
+	formdata.append("api_secret", API_SEC);
 	formdata.append("uids", encUserId.toString() + nameSpace);
 	formdata.append("attributes", "all");
 	
@@ -195,8 +197,8 @@ var addTag = function(data) {
 		var encUserId = encrypt(userId);
 
 		var formdata = new FormData();
-		formdata.append("api_key", "XXXXXXXXXXXXXXXXXXXXX");
-		formdata.append("api_secret", "XXXXXXXXXXXXXXXXXXXX");
+		formdata.append("api_key", API_KEY);
+		formdata.append("api_secret", API_SEC);
 		formdata.append("uid", encUserId.toString() + nameSpace);
 		formdata.append("tids", tagId);
 		formdata.append("attributes", "all");
@@ -237,8 +239,8 @@ var recognize = function() {
 
 		var newblob = dataURItoBlob(dataUrl);
 		var formdata = new FormData();
-		formdata.append("api_key", "b73310a45f724ea7a25af8a1b1efb2fb");
-		formdata.append("api_secret", "9d90e33909a34235b7fcde63adb4b87c");
+		formdata.append("api_key", API_KEY);
+		formdata.append("api_secret", API_SEC);
 		formdata.append("filename", "temp.jpg");
 		formdata.append("file", newblob);
 		formdata.append("uids", "all" + nameSpace);
